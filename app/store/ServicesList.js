@@ -185,7 +185,7 @@ Ext.define('Rambox.store.ServicesList', {
 			,titleBlink: true
 			,js_unread: 'function checkUnread(){var e=document.querySelectorAll("[class*=scroller] [class*=container]"),r=Array.from(e.values()).reduce((e,r)=>e+(r&&r.querySelector("[class*=avatar]")&&r.querySelector("[class*=wrapper][class*=badge]")?parseInt(r.querySelector("[class*=wrapper][class*=badge]").innerHTML):0),0);rambox.setUnreadCount(r)}setInterval(checkUnread,3e3);'
 			,external_tab_match: 'https?:\/\/discordapp\.com'
-y			,note: 'To enable desktop notifications, you have to go to Options inside Discord. Will count only unread DMs.'
+			,note: 'To enable desktop notifications, you have to go to Options inside Discord. Will count only unread DMs.'
 			,userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
 		},
 		{
